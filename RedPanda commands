@@ -1,0 +1,9 @@
+
+docker exec -it redpanda-0 rpk topic create quickstart
+
+
+docker exec -it redpanda-0 rpk topic produce quickstart
+
+
+docker exec -it redpanda-0 rpk topic consume quickstart
+
